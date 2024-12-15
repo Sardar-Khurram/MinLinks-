@@ -50,13 +50,13 @@ const Page = () => {
           {/* First input feild for URL */}
           <div className="">
             <label htmlFor="url"></label>
-            <input name='url' type="text" placeholder='Enter Your URL' onChange={(e) => setUrl(e.target.value)} className="px-5 w-96 py-2 rounded-lg" />
+            <input name='url' type="text" placeholder='Enter Your URL' onChange={(e) => setUrl(e.target.value)} className="px-4  sm:px-5  sm:w-96 py-2 rounded-lg" />
           </div>
 
           {/* Second input feild for Changed URL */}
           <div className="">
             <label htmlFor="url"></label>
-            <input name='url' type="text" placeholder='Enter Your Prefered URL' onChange={(e) => setShortUrl(e.target.value)} className="px-5 w-96 py-2 rounded-lg" />
+            <input name='url' type="text" placeholder='Enter Your Prefered URL' onChange={(e) => setShortUrl(e.target.value)} className="px-4  sm:px-5  sm:w-96 py-2 rounded-lg" />
           </div>
         </form>
         <button onClick={Generate} className=" bg-green-500 w-80 text-xl font-bold text-white px-6 py-2 rounded-lg shadow-xl border-2 hover:bg-green-600 hover:scale-110">Generate</button>
