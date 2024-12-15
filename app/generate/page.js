@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 
 
-const page = () => {
+const Page = () => {
 
   const [url, setUrl] = useState("");
   const [shortUrl, setShortUrl] = useState("");
@@ -45,7 +45,7 @@ const page = () => {
   return (
     <div className="p-10">
       <div className='flex items-center justify-center flex-col border border-green-400  max-w-lg mx-auto py-8 bg-green-100 p-5  rounded-xl gap-6'>
-        <h1 className='text-2xl font-semibold text-green-900'>Generate your short URL's</h1>
+        <h1 className='text-2xl font-semibold text-green-900'>Generate your short URL&apos;s</h1>
         <form action="" className="text-center flex items-center justify-center flex-col gap-4">
           {/* First input feild for URL */}
           <div className="">
@@ -72,4 +72,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
