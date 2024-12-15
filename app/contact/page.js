@@ -53,7 +53,7 @@ const ContactPage = () => {
           Contact Us
         </h1>
         <p className="text-center text-gray-600 mb-10">
-          We’d love to hear from you! Please fill out the form below, and we’ll
+          We&apos;d love to hear from you! Please fill out the form below, and we&apos;ll
           get back to you as soon as possible.
         </p>
         <form

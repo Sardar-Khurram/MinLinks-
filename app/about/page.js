@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
 
 const AboutPage = () => {
   return (
@@ -14,7 +16,7 @@ const AboutPage = () => {
           MinLinks is your ultimate companion for simplifying URLs. We aim to
           provide a seamless, fast, and reliable URL shortening experience
           powered by cutting-edge technology and user-centric design. Whether
-          you're managing personal links or enterprise-scale operations, we
+          you&apos;re managing personal links or enterprise-scale operations, we
           have got you covered!
         </p>
       </section>
@@ -61,7 +63,7 @@ const AboutPage = () => {
             whileHover={{ scale: 1.1 }}
             className="flex flex-col items-center justify-center gap-4 p-6 bg-white rounded-lg shadow-lg hover:shadow-xl"
           >
-            <img
+            <Image
               src="/fast.jpg"
               alt="Fast"
               className="h-16"
@@ -77,7 +79,7 @@ const AboutPage = () => {
             whileHover={{ scale: 1.1 }}
             className="flex flex-col items-center justify-center gap-4 p-6 bg-white rounded-lg shadow-lg hover:shadow-xl"
           >
-            <img
+            <Image
               src="/secure.jpg"
               alt="Secure"
               className="h-16"
@@ -93,7 +95,7 @@ const AboutPage = () => {
             whileHover={{ scale: 1.1 }}
             className="flex flex-col items-center justify-center gap-4 p-6 bg-white rounded-lg shadow-lg hover:shadow-xl"
           >
-            <img
+            <Image
               src="/analytics.jpg"
               alt="Analytics"
               className="h-16 w-16"
@@ -122,7 +124,7 @@ const AboutPage = () => {
           browsing experience!
         </p>
         <button className="bg-green-500 px-8 py-3 text-xl text-white rounded-lg shadow-lg hover:bg-green-600 hover:scale-105 transition-transform duration-300">
-          <a href="/generate">Generate Now</a>
+          <Link href="/generate">Generate Now</Link>
         </button>
       </motion.section>
     </div>
