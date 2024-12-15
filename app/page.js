@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="bg-gray-100 ">
       {/* Hero Section */}
-      <section className="relative z-50 w-full flex flex-col items-center justify-center text-center py-16 bg-gradient-to-br from-green-400 via-green-500 to-green-600 text-white">
+      <section className="relative w-full flex flex-col items-center justify-center text-center py-16 bg-gradient-to-br from-green-400 via-green-500 to-green-600 text-white">
         <h1 className="text-4xl lg:text-6xl font-extrabold mb-4 drop-shadow-lg animate-fadeInDown">
           Welcome to MinLinks
         </h1>
